@@ -1,6 +1,11 @@
-export default function WorkItem({ imgUrl, title, tech }) {
+export default function WorkItem({ imgUrl, title, tech, workUrl }) {
   return (
-    <div className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden">
+    <a
+      href={workUrl}
+      rel="noreferrer"
+      target="_blank"
+      className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden"
+    >
       <img
         src={imgUrl}
         alt={title}
@@ -21,6 +26,6 @@ export default function WorkItem({ imgUrl, title, tech }) {
           ))}
         </p>
       </div>
-    </div>
+    </a>
   );
 }
