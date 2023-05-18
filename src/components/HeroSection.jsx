@@ -6,8 +6,8 @@ export default function HeroSection() {
           Hi, This is Adi
         </h1>
         <p className="text-md md:text-xl max-w-md mb-3 text-gray-600 dark:text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
-          accusamus!
+          Learning is a never-ending adventure, and each new knowledge is a
+          treasure
         </p>
         <a
           href="#works"
