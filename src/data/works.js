@@ -1,30 +1,31 @@
+import foodList from '../images/food-list.png';
+import todoList from '../images/todolistnew.png';
+import fortAdi from '../images/portadi.png';
+import dragDrop from '../images/drgdrop.png';
+
 export default [
   {
-    title: 'TechHub-Blog',
-    imgUrl:
-      'https://raw.githubusercontent.com/ShaifArfan/techHub-blog/main/banner.png',
-    tech: ['React JS', 'Gatsby JS', 'Sanity.io'],
-    workUrl: 'https://github.com/ShaifArfan/techHub-blog',
+    title: 'Food Recipe App',
+    imgUrl: foodList,
+    tech: ['React JS', 'Next.js', 'React Query', 'TheMealDB API'],
+    workUrl: 'https://food-list.netlify.app/',
   },
   {
-    title: "Shaif'f Cuisine",
-    imgUrl:
-      'https://raw.githubusercontent.com/ShaifArfan/shaif-s-cuisine/main/readmeImg/banner.png',
-    tech: ['HTML', 'CSS', 'Netlify'],
-    workUrl: 'https://github.com/ShaifArfan/shaif-s-cuisine',
+    title: 'Todo List',
+    imgUrl: todoList,
+    tech: ['React JS', 'Redux', 'Framer Motion', 'LocalStorage'],
+    workUrl: 'https://todo-app-react-vite.vercel.app/',
   },
   {
-    title: "Ayan's Portfolio Website",
-    imgUrl:
-      'https://raw.githubusercontent.com/ShaifArfan/AYANs-portfolio/main/ReadMeImages/ReadMeBanner.png',
-    tech: ['React JS', 'CSS'],
-    workUrl: 'https://github.com/ShaifArfan/AYANs-portfolio',
+    title: 'Adiansyah Portfolio Website',
+    imgUrl: fortAdi,
+    tech: ['HTML', 'Tailwind CSS'],
+    workUrl: 'https://adiansyahputra.github.io/portfolio-tailwind-css/',
   },
   {
-    title: 'Artistic',
-    imgUrl:
-      'https://raw.githubusercontent.com/ShaifArfan/artistic/main/readmeImg/banner.png',
-    tech: ['React JS', 'CSS'],
-    workUrl: 'https://github.com/ShaifArfan/artistic',
+    title: 'Kanban App',
+    imgUrl: dragDrop,
+    tech: ['React JS', 'ChakraUI', 'LocalStorage'],
+    workUrl: 'https://drag-drop-kanban.vercel.app/',
   },
 ];
